@@ -3,7 +3,7 @@ let list_1 = []
 let list_2 = []
 let count = 0
 
-const data = fs.readFileSync('./puzzle_input.txt', { encoding: 'utf8', flag: 'r' });
+const data = fs.readFileSync('./day_1/puzzle_input.txt', { encoding: 'utf8', flag: 'r' });
 //Splitting data by new line
 let split_string = data.split(/\r?\n/);
 //Splitting into 2 lists
